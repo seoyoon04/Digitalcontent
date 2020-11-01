@@ -1,4 +1,14 @@
 package com.example.myapplication;
 
-public class Dointent {
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class Dointent extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_dointent);
+    }
 }

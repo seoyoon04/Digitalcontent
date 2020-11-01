@@ -40,11 +40,11 @@ public class IntroActivity extends AppCompatActivity {
         }
 
         setContentView(R.layout.activity_intro);
-//
-//        viewPager = findViewById(R.id.view_pager);
-//        dotsLayout = findViewById(R.id.layoutDots);
-//        btnSkip = findViewById(R.id.btn_skip);
-//        btnNext = findViewById(R.id.btn_next);
+
+        viewPager = findViewById(R.id.view_pager);
+        dotsLayout = findViewById(R.id.layoutDots);
+        btnSkip = findViewById(R.id.btn_skip);
+        btnNext = findViewById(R.id.btn_next);
 
         layouts = new int[] {
                R.layout.page1,
